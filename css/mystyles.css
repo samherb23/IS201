@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(4, 4, 4);
+    background-color: lightgray;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: cornflowerblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+}
+.underline {text-decoration:underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+
+.homebg {
+    background-image: url(../images/4E984F5B-9B55-46DF-B724-3AA0339DB457_1_105_c.jpeg);
+    background-position: top right;
+    /* background-repeat: ; */
+}
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgray;
+
+    border: 1px solid red;
+}
+.box2 {
+    padding: 5px;
+}
+/*wouldn't normally use just 'box' */
+.box3 {
+    margin: 50px;
+    
+}
